@@ -3,7 +3,7 @@
 set -x
 set -e
 
-export CONTIKI_VER=4.7
+export CONTIKI_VER=4.8
 export CONTIKI_BASE_DIR=/home/sidharth/contiki-ng
 export CONTIKI_EXAMPLE_DIR=$CONTIKI_BASE_DIR/examples
 export EXAMPLES="6tisch/sixtop 6tisch/6p-packet 6tisch/simple-node coap/coap-example-server dev/gpio-hal hello-world

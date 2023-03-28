@@ -3,7 +3,7 @@
 set -x
 set -e
 
-export CVENUM=2020-12140
+export CVENUM=2019-9183
 export CONTIKI_VER=4.4
 export CONTIKI_BASE_DIR=/home/sidharth/contiki-ng
 export CONTIKI_EXAMPLE_DIR=$CONTIKI_BASE_DIR/examples
@@ -30,7 +30,7 @@ git checkout release/v$CONTIKI_VER
 #git apply $DIR/patches/l2cap_sample.patch
 
 # bugs in target identified after paper release, patch
-git apply $PATCH_DIR/fix-l2cap-issues.patch
+#git apply $PATCH_DIR/fix-l2cap-issues.patch
 
 #git apply $DIR/patches/cc2538_norom.patch
 # Replace DMA-based read
@@ -39,6 +39,9 @@ git apply $PATCH_DIR/fix-l2cap-issues.patch
 # Configure radio packet -> SNMP
 #git apply $PATCH_DIR/transparent_mac.patch
 #git apply $PATCH_DIR/snmp_sample.patch
+
+# Revert security fixes
+git revert 5884a12d7d71c5bce0d97b1a387aeb7928189b04 -n -m 1
 
 mkdir $OUT_DIR/CVE-$CVENUM
 

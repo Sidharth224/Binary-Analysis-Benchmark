@@ -7,4 +7,10 @@
 | PineTIme | Wearable | Smart Watch | n/a |	n/a	| https://github.com/joaquimorg/PinetimeLite |
 | NETGEAR | Smart Home | WiFi router | CAX30S | https://www.downloads.netgear.com/files/GDC/CAX30/CAX30-V1.4.11.2.zip | https://www.downloads.netgear.com/files/GPL/CAX30_v1.4.9.4_gpl.zip |
 | NETGEAR | Smart Home | WiFi router | D6000 - AC750 | https://www.downloads.netgear.com/files/GDC/D6000/D6000_V1.0.0.80_1.0.1.zip |https://www.downloads.netgear.com/files/GPL/D6000_v1.0.0.80_GPL-20200806.tar.gz |
-| NETGEAR | Smart Home | WiFi router | CAX80 |https://www.downloads.netgear.com/files/GDC/CAX80/CAX80-V2.1.5.2.zip | https://www.downloads.netgear.com/files/GPL/OpenBFC_20.1_RDKM_3party.tar.gz |
+| NETGEAR | Smart Home | WiFi router | CAX80 | https://www.downloads.netgear.com/files/GDC/CAX80/CAX80-V2.1.5.2.zip | https://www.downloads.netgear.com/files/GPL/OpenBFC_20.1_RDKM_3party.tar.gz |
+| Tasmota - Bluetooth | Smart Home | ESP Firmware | n/a | n/a |	https://github.com/arendst/Tasmota |
+| Tasmota - Zigbee | Smart Home | ESP Firmware | n/a | n/a |	https://github.com/arendst/Tasmota |
+| Tasmota - Sensor | Smart Home | ESP Firmware | n/a | n/a |	https://github.com/arendst/Tasmota |
+| Opto22 | ICS Equipment | PLC | GRV-R7-MM1001-10 | https://www.opto22.com/support/resources-tools/downloads/grv-r7-mm1001-10-firmware | https://github.com/Opto22/node-red-contrib-groov-io | https://github.com/Parrot-Developers/olympe
+| Siemens | ICS Equipment | LOGO | LOGO V8 | https://support.industry.siemens.com/cs/document/109780764/product-information-on-the-firmware-update-for-logo!-8-for-security-vulnerability-cve-2020-7593-?dti=0&pnid=13613&lc=en-WW | n/a |
+

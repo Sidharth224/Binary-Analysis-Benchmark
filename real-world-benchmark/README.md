@@ -13,4 +13,9 @@
 | Tasmota - Sensor | Smart Home | ESP Firmware | n/a | n/a |	https://github.com/arendst/Tasmota |
 | Opto22 | ICS Equipment | PLC | GRV-R7-MM1001-10 | https://www.opto22.com/support/resources-tools/downloads/grv-r7-mm1001-10-firmware | https://github.com/Opto22/node-red-contrib-groov-io | https://github.com/Parrot-Developers/olympe
 | Siemens | ICS Equipment | LOGO | LOGO V8 | https://support.industry.siemens.com/cs/document/109780764/product-information-on-the-firmware-update-for-logo!-8-for-security-vulnerability-cve-2020-7593-?dti=0&pnid=13613&lc=en-WW | n/a |
-
+| TP-Link | Smart Home | Smart Plug | Deco XE75 Pro | https://www.tp-link.com/us/support/download/deco-xe75-pro/#Firmware | https://www.tp-link.com/us/support/gpl-code/ |
+| TP-Link | Smart Home | WiFi router | Archer A7 | https://www.tp-link.com/us/support/download/archer-a7/#Firmware | https://www.tp-link.com/us/support/gpl-code/ |
+| TP-Link | Networking | SDN Controller | Omada - OC200 | https://www.tp-link.com/us/support/download/oc200/#Firmware | https://www.tp-link.com/us/support/gpl-code/ |
+| TP-Link | Networking | L2 Managed Switches | TL-SG3452XP | https://www.tp-link.com/us/support/download/tl-sg3452xp/#Firmware | https://www.tp-link.com/us/support/gpl-code/ |
+| Yi | Smart Camera | Dash Cam | CK11H | https://www.yitechnology.com/firmware | n/a |
+| Yi | Smart Camera | Mirrorless Cam | Yi-M1 | https://www.yitechnology.com/firmware/ | n/a |

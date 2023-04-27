@@ -1,3 +1,4 @@
+<font size="1"> Linux based Firmwares</font>
 | Vendor  | Category | Type | Model | Binary | Source Code |
 |---------|----------|------|-------|--------|-------------|
 | D-Link  | Smart Home | Camera | DCS-800L | https://d2okd4tdjucp2n.cloudfront.net/DCS-800L/DCS-800L_A1_v1.06.10.zip | https://dlink-gpl.s3.amazonaws.com/GPL1900119/DCS-800L_A1_GPL10610.tar.gz |
@@ -20,7 +21,7 @@
 | Yi | Smart Camera | Dash Cam | CK11H | https://www.yitechnology.com/firmware | n/a |
 | Yi | Smart Camera | Mirrorless Cam | Yi-M1 | https://www.yitechnology.com/firmware/ | n/a |
 
-Bare-metal Firmwares
+<font size="1"> Bare-metal Firmwares</font>
 | Git Repo | Research Paper | Authors | Firmware details | Hardware used | Comments |
 |----------|----------------|---------|------------------|---------------|----------|
 | https://github.com/OSUSecLab/FirmXRay/tree/master/dataset | FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware | Haohuang Wen, Zhiqiang Lin and Yinqian Zhang | BLE Stack (Ti) and SoftDevice (Nordic) | n/a | Reverse engineered the Over-the-Air download mechanism to extract the binaries |

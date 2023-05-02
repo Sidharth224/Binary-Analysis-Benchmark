@@ -1,3 +1,4 @@
+# Security Benchmark Details
 | CVE |	Vulnerability Details |	SDK Version | Architecture | MCU | MCU Details | Sample used |
 |-----|-----------------------|-------------|--------------|-----|-------------|-------------|
 | CVE-2020-10064 | https://docs.zephyrproject.org/latest/security/vulnerabilities.html#cve-2020-10064 | Zephyr 2.2.0 | ARM | SAM4E Xplained Pro | https://docs.zephyrproject.org/2.2.0/boards/arm/sam4e_xpro/doc/index.html | net/sockets/echo_client, net/sockets/echo_server |

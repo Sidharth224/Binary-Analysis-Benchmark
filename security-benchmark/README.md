@@ -13,4 +13,4 @@
 | CVE-2021-3330 | https://nvd.nist.gov/vuln/detail/CVE-2021-3330 | Zephyr 2.4.0 | ARM | SAM4S Xplained | https://docs.zephyrproject.org/2.4.0/boards/arm/sam4s_xplained/doc/index.html | net/sockets/echo_client, net/sockets/echo_server |
 | CVE-2019-9183 | https://cve.report/CVE-2019-9183 | Contiki-ng v4.4 | ARM | TI cc2538 development kit | https://docs.contiki-ng.org/en/develop/doc/platforms/cc2538dk.html | hello-world with bug injected |
 | CVE-2020-12140 | https://cve.report/CVE-2020-12140 | Contiki-ng v4.4 | ARM | TI cc26x0 and cc13x0 platforms | https://docs.contiki-ng.org/en/develop/doc/platforms/srf06-cc26xx.html | ble-ipv6, hello-world with bug injected |
-| CVE-2020-12141 | https://cve.report/CVE-2020-12141 | Contiki-ng v4.4 | ARM | TI cc2538 development kit | https://docs.contiki-ng.org/en/develop/doc/platforms/cc2538dk.html | snmp-server with bug injected |
+| CVE-2020-12141 | https://cve.report/CVE-2020-12141 | Contiki-ng v4.4 | ARM | TI cc2538 development kit | https://docs.contiki-ng.org/en/develop/doc/platforms/cc2538dk.html| snmp-server with bug injected |

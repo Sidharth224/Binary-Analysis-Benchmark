@@ -30,7 +30,7 @@
 | https://github.com/ucsb-seclab/pretender | Toward the Analysis of Embedded Firmware through Automated Re-hosting | Eric Gustafson, Marius Muench, et al. | n/a | Mbed OS 5 | MAX32600, STM32-Nucleo_F072RB and STM-Nucleo_L152RE | n/a |
 | https://github.com/panda-re/lava/tree/master | LAVA: Large-scale automated vulnerability addition	| Brendan Dolan-Gavitt, Patrick Hulin et al. | n/a | n/a | n/a | LAVA is tool used to inject bugs into a program, some of the example programs with bugs injected by LAVA has been included in the dataset |
 
-Other - Bare-metal firmwares collected from random open source projects 
+# Other - Bare-metal firmwares collected from random open source projects 
 | Git Repo | Source | Firmware details | OS | Hardware used | Comments |
 |----------|--------|------------------|----|---------------|----------|
 | https://github.com/cpq/bare-metal-programming-guide/tree/main | https://awesomeopensource.com/search?q=bare-metal | n/a | None (bare-metal) | STM32 Nucleo-F429ZI, TI EK-TM4C1294XL, TI EK-TM4C1294XL | Firmware from this project are in [Other/1](https://github.com/Sidharth224/Security-Firmware-Benchmark/tree/main/real-world-benchmark/Other/1) |	

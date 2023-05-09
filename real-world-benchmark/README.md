@@ -27,4 +27,12 @@
 | https://github.com/OSUSecLab/FirmXRay/tree/master/dataset | FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware | Haohuang Wen, Zhiqiang Lin and Yinqian Zhang | BLE Stack (Ti) and SoftDevice (Nordic) | n/a (bare-metal) | n/a | Reverse engineered the Over-the-Air download mechanism to extract the binaries |
 | https://github.com/pwnforce/uSBS/tree/master/Ground-truth%20Benchmark/fw | μSBS: Static Binary Sanitization of Bare-metal Embedded Devices for Fault Observability | Majid Salehi, Danny Hughes and Bruno Crispo |  Audio, LCD Display, Camera USB, TCP/UDP, PLC | n/a (bare-metal) | STM32 Board featuring ARM Cortex M4 and M3 | n/a |
 | https://github.com/RiS3-Lab/p2im-real_firmware | P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling | Bo Feng, Alejandro Mera and Long Lu | Robot, Drone and CNC | n/a (bare-metal) | STM32F103RB | n/a |
-| https://github.com/ucsb-seclab/pretender | Toward the Analysis of Embedded Firmware through Automated Re-hosting | Eric Gustafson, Marius Muench, Chad Spensky, Nilo Redini, Aravind Machiry, Yanick Fratantonio, Aurélien Francillon, Davide Balzarotti, Yung Ryn Choe, Christopher Kruegel, and Giovanni Vigna | n/a | Mbed OS 5 | MAX32600	| n/a |
+| https://github.com/ucsb-seclab/pretender | Toward the Analysis of Embedded Firmware through Automated Re-hosting | Eric Gustafson, Marius Muench, et al. | n/a | Mbed OS 5 | MAX32600, STM32-Nucleo_F072RB and STM-Nucleo_L152RE | n/a |
+| https://github.com/panda-re/lava/tree/master | LAVA: Large-scale automated vulnerability addition	| Brendan Dolan-Gavitt, Patrick Hulin et al. | n/a | n/a | n/a | LAVA is tool used to inject bugs into a program, some of the example programs with bugs injected by LAVA has been included in the dataset |
+
+Other - Bare-metal firmwares collected from random open source projects 
+| Git Repo | Source | Firmware details | OS | Hardware used | Comments |
+|----------|--------|------------------|----|---------------|----------|
+| https://github.com/cpq/bare-metal-programming-guide/tree/main | https://awesomeopensource.com/search?q=bare-metal | n/a | None (bare-metal) | STM32 Nucleo-F429ZI, TI EK-TM4C1294XL, TI EK-TM4C1294XL | Firmware from this project are in [Other/1](https://github.com/Sidharth224/Security-Firmware-Benchmark/tree/main/real-world-benchmark/Other/1) |	
+| https://github.com/allexoll/BBB-BareMetal/tree/master | https://awesomeopensource.com/search?q=bare-metal | n/a | None (bare-metal) | STM32 Nucleo-F429ZI, TI EK-TM4C1294XL, TI EK-TM4C1294XL | Firmware from this project are in [Other/2](https://github.com/Sidharth224/Security-Firmware-Benchmark/tree/main/real-world-benchmark/Other/2) |	
+					

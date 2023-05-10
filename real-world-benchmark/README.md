@@ -21,14 +21,16 @@
 | Yi | Smart Camera | Dash Cam | CK11H | https://www.yitechnology.com/firmware | n/a |
 | Yi | Smart Camera | Mirrorless Cam | Yi-M1 | https://www.yitechnology.com/firmware/ | n/a |
 
-# Firmwares created from papers
+# Bare-metal firmwares created from research papers
 | Git Repo | Research Paper | Authors | Firmware details | OS | Hardware used | Comments |
 |----------|----------------|---------|------------------|----|---------------|----------|
-| https://github.com/OSUSecLab/FirmXRay/tree/master/dataset | FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware | Haohuang Wen, Zhiqiang Lin and Yinqian Zhang | BLE Stack (Ti) and SoftDevice (Nordic) | n/a (bare-metal) | n/a | Reverse engineered the Over-the-Air download mechanism to extract the binaries |
-| https://github.com/pwnforce/uSBS/tree/master/Ground-truth%20Benchmark/fw | μSBS: Static Binary Sanitization of Bare-metal Embedded Devices for Fault Observability | Majid Salehi, Danny Hughes and Bruno Crispo |  Audio, LCD Display, Camera USB, TCP/UDP, PLC | n/a (bare-metal) | STM32 Board featuring ARM Cortex M4 and M3 | n/a |
-| https://github.com/RiS3-Lab/p2im-real_firmware | P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling | Bo Feng, Alejandro Mera and Long Lu | Robot, Drone and CNC | n/a (bare-metal) | STM32F103RB | n/a |
-| https://github.com/ucsb-seclab/pretender | Toward the Analysis of Embedded Firmware through Automated Re-hosting | Eric Gustafson, Marius Muench, et al. | n/a | Mbed OS 5 | MAX32600, STM32-Nucleo_F072RB and STM-Nucleo_L152RE | n/a |
-| https://github.com/panda-re/lava/tree/master | LAVA: Large-scale automated vulnerability addition	| Brendan Dolan-Gavitt, Patrick Hulin et al. | n/a | n/a | n/a | LAVA is tool used to inject bugs into a program, some of the example programs with bugs injected by LAVA has been included in the dataset |
+| https://github.com/OSUSecLab/FirmXRay/tree/master/dataset | [FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~wen.423/papers/ccs20_FirmXRay) | Haohuang Wen, Zhiqiang Lin and Yinqian Zhang | BLE Stack (Ti) and SoftDevice (Nordic) | n/a (bare-metal) | n/a | Reverse engineered the Over-the-Air download mechanism to extract the binaries |
+| https://github.com/pwnforce/uSBS/tree/master/Ground-truth%20Benchmark/fw | [μSBS: Static Binary Sanitization of Bare-metal Embedded Devices for Fault Observability](https://www.usenix.org/conference/raid2020/presentation/salehi) | Majid Salehi, Danny Hughes and Bruno Crispo |  Audio, LCD Display, Camera USB, TCP/UDP, PLC | n/a (bare-metal) | STM32 Board featuring ARM Cortex M4 and M3 | n/a |
+| https://github.com/RiS3-Lab/p2im-real_firmware | [P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20-feng.pdf) | Bo Feng, Alejandro Mera and Long Lu | Robot, Drone and CNC | n/a (bare-metal) | STM32F103RB | n/a |
+| https://github.com/ucsb-seclab/pretender | [Toward the Analysis of Embedded Firmware through Automated Re-hosting](https://www.usenix.org/system/files/raid2019-gustafson.pdf) | Eric Gustafson, Marius Muench, et al. | n/a | Mbed OS 5 | MAX32600, STM32-Nucleo_F072RB and STM-Nucleo_L152RE | n/a |
+| https://github.com/panda-re/lava/tree/master | [LAVA: Large-scale automated vulnerability addition](https://ieeexplore.ieee.org/document/7546498) | Brendan Dolan-Gavitt, Patrick Hulin et al. | n/a | n/a | n/a | LAVA is tool used to inject bugs into a program, some of the example programs with bugs injected by LAVA has been included in the dataset |
+| https://github.com/seemoo-lab/polypyus/tree/master | [Polypyus – The Firmware Historian](https://www.ndss-symposium.org/wp-content/uploads/bar2021_23004_paper.pdf) | Jan Friebertshauser, Florian Kosterhon, Jiska Classen and Matthias Hollick | Bluetooth | None (bare-metal) | Cortex-M3 and Cortex-M4 | n/a |
+
 
 # Other - Bare-metal firmwares collected from random open source projects 
 | Git Repo | Source | Firmware details | OS | Hardware used | Comments |

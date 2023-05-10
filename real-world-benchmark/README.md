@@ -22,8 +22,8 @@
 | Yi | Smart Camera | Mirrorless Cam | Yi-M1 | https://www.yitechnology.com/firmware/ | n/a |
 
 # Bare-metal firmwares created from research papers
-| Git Repo | Research Paper | Authors | Firmware details | OS | Hardware used | Comments |
-|----------|----------------|---------|------------------|----|---------------|----------|
+| Git Repo |           Research Paper          | Authors | Firmware details | OS | Hardware used |         Comments          |
+|----------|------------------------|----------|------------------|----|---------------|---------------------------|
 | https://github.com/OSUSecLab/FirmXRay/tree/master/dataset | [FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~wen.423/papers/ccs20_FirmXRay) | Haohuang Wen, Zhiqiang Lin and Yinqian Zhang | BLE Stack (Ti) and SoftDevice (Nordic) | n/a (bare-metal) | n/a | Reverse engineered the Over-the-Air download mechanism to extract the binaries |
 | https://github.com/pwnforce/uSBS/tree/master/Ground-truth%20Benchmark/fw | [μSBS: Static Binary Sanitization of Bare-metal Embedded Devices for Fault Observability](https://www.usenix.org/conference/raid2020/presentation/salehi) | Majid Salehi, Danny Hughes and Bruno Crispo |  Audio, LCD Display, Camera USB, TCP/UDP, PLC | n/a (bare-metal) | STM32 Board featuring ARM Cortex M4 and M3 | n/a |
 | https://github.com/RiS3-Lab/p2im-real_firmware | [P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20-feng.pdf) | Bo Feng, Alejandro Mera and Long Lu | Robot, Drone and CNC | n/a (bare-metal) | STM32F103RB | n/a |

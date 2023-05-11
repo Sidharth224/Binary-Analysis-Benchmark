@@ -28,26 +28,25 @@
 | https://github.com/pwnforce/uSBS/tree/master/Ground-truth%20Benchmark/fw | [μSBS: Static Binary Sanitization of Bare-metal Embedded Devices for Fault Observability](https://www.usenix.org/conference/raid2020/presentation/salehi) | Majid Salehi, Danny Hughes and Bruno Crispo |  Firmwares the access peripheral TCP/UDP | n/a (bare-metal) | [STM32Cube Ethernet HAL and LwIP](https://www.st.com/resource/en/user_manual/um1713-developing-applications-on-stm32cube-with-lwip-tcpip-stack-stmicroelectronics.pdf) | [STM32-Nucleo F401RE](https://www.st.com/en/evaluation-tools/nucleo-f401re.html), [STM32F479I-Eval](https://www.st.com/en/microcontrollers-microprocessors/stm32f469-479.html), [STM32F4Discovery](https://www.st.com/en/evaluation-tools/stm32f4discovery.html), [STM32-Nucleo L152RE](https://www.st.com/en/evaluation-tools/nucleo-l152re.html) | n/a |
 | https://github.com/RiS3-Lab/p2im-real_firmware | [P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral
 Interface Modeling](https://www.usenix.org/system/files/sec20-feng.pdf) | Bo Feng, Alejandro Mera, Long Lu | Robot  | None (bare-metal)	| DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a |			PLC	Arduino	DIY	[STM32F429ZI](https://stm32-base.org/boards/)	n/a
-| ,, | ,, | ,, | Gateway |	Arduino | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a |
-| ,, | ,, | ,, | Drone | None (bare-metal) | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a |
-| ,, | ,, | ,, | CNC | None (bare-metal) | DIY | [STM32F429ZI](https://stm32-base.org/boards/) | n/a | 
-| ,, | ,, | ,, | Reflow Oven | Arduino | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a | 
-| ,, | ,, | ,, | Console | RIOT | DIY | [MK64FN1M0VLL12](https://www.nxp.com/part/MK64FN1M0VLL12#/) | n/a | 
-| ,, | ,, | ,, | Steering Control | Arduino	| DIY | [SAM3X8E](https://www.microchip.com/en-us/product/ATSAM3X8E) | n/a | 
-| ,, | ,, | ,, | Soldering Iron | FreeRTOS | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a | 
-| ,, | ,, | ,, | Heat Press	Arduino | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a | 
+|  -  |  -  |  -  | Gateway |	Arduino | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a |
+|  -  |  -  |  -  | Drone | None (bare-metal) | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a |
+|  -  |  -  |  -  | CNC | None (bare-metal) | DIY | [STM32F429ZI](https://stm32-base.org/boards/) | n/a | 
+|  -  |  -  |  -  | Reflow Oven | Arduino | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a | 
+|  -  |  -  |  -  | Console | RIOT | DIY | [MK64FN1M0VLL12](https://www.nxp.com/part/MK64FN1M0VLL12#/) | n/a | 
+|  -  |  -  |  -  | Steering Control | Arduino	| DIY | [SAM3X8E](https://www.microchip.com/en-us/product/ATSAM3X8E) | n/a | 
+|  -  |  -  |  -  | Soldering Iron | FreeRTOS | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a | 
+|  -  |  -  |  -  | Heat Press	Arduino | DIY | [STM32F103RB](https://stm32-base.org/boards/) | n/a | 
 | https://github.com/ucsb-seclab/pretender | [Toward the Analysis of Embedded Firmware through Automated Re-hosting](https://www.usenix.org/system/files/raid2019-gustafson.pdf) | Eric Gustafson, Marius Muench, et al. | Firmwares that use peripherals Radio, UART, RF-lock, Thermostat and I2C | Mbed OS 5 |DIY | MAX32600, STM32-Nucleo_F072RB and STM-Nucleo_L152RE | n/a |
 | https://github.com/panda-re/lava/tree/master | [LAVA: Large-scale automated vulnerability addition](https://ieeexplore.ieee.org/document/7546498) | Brendan Dolan-Gavitt, Patrick Hulin et al. | n/a | n/a | DIY | n/a | LAVA is tool used to inject bugs into a program, some of the example programs with bugs injected by LAVA has been included in the dataset. The packages used by the tool are obsolete right now. But it is worth reading it, the paper [What You Corrupt Is Not What You Crash: Challenges in Fuzzing Embedded Devices](https://s3.eurecom.fr/docs/ndss18_muench.pdf) explains how to use lava to inject bugs into ur code |
-| https://github.com/seemoo-lab/polypyus/tree/master | [Polypyus – The Firmware Historian](https://www.ndss-symposium.org/wp-content/uploads/bar2021_23004_paper.pdf) | Jan Friebertshauser, Florian Kosterhon, Jiska Classen and Matthias Hollick | Bluetooth | None (bare-metal) | DIY | Cortex-M3 and Cortex-M4 | n/a |
-| ,, | ,, | ,, | BCM20702A1	| None (bare-metal)	| DIY | ARM7TDMI-S | Asus USB Dongle |
-| ,, | ,, | ,, | BCM2070B0	| None (bare-metal)	| DIY | Cortex M3 | MacBook 2011, Thinkpad T420 |
-| ,, | ,, | ,, | BCM4335C0	| None (bare-metal)	| DIY | Cortex M3 | Google Nexus 5 |
-| ,, | ,, | ,, | BCM43430A1	| None (bare-metal)	| DIY | Cortex M3 | Raspberry Pi 3/Zero W |
-| ,, | ,, | ,, | BCM4345B0	| None (bare-metal)	| DIY | Cortex M3 | iPhone 6 |
-| ,, | ,, | ,, | BCM4345C0	| None (bare-metal)	| DIY | Cortex M3 | Raspberry Pi 3+/4 |
-| ,, | ,, | ,, | BCM4347B0	| None (bare-metal)	| DIY | Cortex M4 | Samsung Galaxy S8 |
-| ,, | ,, | ,, | BCM4375B1	| None (bare-metal)	| DIY | Cortex M3 | iPhone 8/X/XR |
-| ,, | ,, | ,, | BCM4378B1	| None (bare-metal)	| DIY | Cortex M4 | iPhone 11/SE2 |
+| https://github.com/seemoo-lab/polypyus/tree/master | [Polypyus – The Firmware Historian](https://www.ndss-symposium.org/wp-content/uploads/bar2021_23004_paper.pdf) | Jan Friebertshauser, Florian Kosterhon, Jiska Classen and Matthias Hollick | BCM20702A1	| None (bare-metal)	| DIY | ARM7TDMI-S | Asus USB Dongle |
+|  -  |  -  |  -  | BCM2070B0	| None (bare-metal)	| DIY | Cortex M3 | MacBook 2011, Thinkpad T420 |
+|  -  |  -  |  -  | BCM4335C0	| None (bare-metal)	| DIY | Cortex M3 | Google Nexus 5 |
+|  -  |  -  |  -  | BCM43430A1	| None (bare-metal)	| DIY | Cortex M3 | Raspberry Pi 3/Zero W |
+|  -  |  -  |  -  | BCM4345B0	| None (bare-metal)	| DIY | Cortex M3 | iPhone 6 |
+|  -  |  -  |  -  | BCM4345C0	| None (bare-metal)	| DIY | Cortex M3 | Raspberry Pi 3+/4 |
+|  -  |  -  |  -  | BCM4347B0	| None (bare-metal)	| DIY | Cortex M4 | Samsung Galaxy S8 |
+|  -  |  -  |  -  | BCM4375B1	| None (bare-metal)	| DIY | Cortex M3 | iPhone 8/X/XR |
+|  -  |  -  |  -  | BCM4378B1	| None (bare-metal)	| DIY | Cortex M4 | iPhone 11/SE2 |
 
 
 # Other - Bare-metal firmwares collected from random open source projects 

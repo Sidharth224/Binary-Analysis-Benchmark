@@ -47,7 +47,7 @@
 |  -  |  -  |  -  | BCM4347B0	| None (bare-metal)	| DIY | Cortex M4 | Samsung Galaxy S8 |
 |  -  |  -  |  -  | BCM4375B1	| None (bare-metal)	| DIY | Cortex M3 | iPhone 8/X/XR |
 |  -  |  -  |  -  | BCM4378B1	| None (bare-metal)	| DIY | Cortex M4 | iPhone 11/SE2 |
-
+| https://github.com/fuzzware-fuzzer/fuzzware-experiments | [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://www.usenix.org/system/files/sec22summer_scharnowski.pdf) | Tobias Scharnowski, Nils Bars, Moritz Schloegel, Eric Gustafson, et al. | Password recovery | None (bare-metal) | DIY | ARCH_PRO, NXP_LPC1549, STM32-NUCLEO_F103RB, EFM32GG_STK3700, NXP_LPC1768, STM32-NUCLEO_F207ZG, UBLOX_C027, EFM32LG_STK3600, MOTE_L152RC, STM32-NUCLEO_L152RE | n/a |
 
 # Other - Bare-metal firmwares collected from random open source projects 
 | Git Repo | Source |   Firmware Type  | OS | Hardware used | Comments |

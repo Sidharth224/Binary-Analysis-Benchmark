@@ -1,5 +1,5 @@
 # Security Benchmark Details
-| CVE |	Vulnerability Details |	SDK Version | Architecture | MCU | MCU Details | Sample used |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CVE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|	Vulnerability Details |	SDK Version | Architecture | MCU | MCU Details | Sample used |
 |-----|-----------------------|-------------|--------------|-----|-------------|-------------|
 | CVE-2020-10064 | https://docs.zephyrproject.org/latest/security/vulnerabilities.html#cve-2020-10064 | Zephyr 2.2.0 | ARM | SAM4E Xplained Pro | https://docs.zephyrproject.org/2.2.0/boards/arm/sam4e_xpro/doc/index.html | net/sockets/echo_client, net/sockets/echo_server |
 | CVE-2020-10065 | https://docs.zephyrproject.org/latest/security/vulnerabilities.html#cve-2020-10065 | Zephyr 2.2.0 | ARM | ST Disco L475 IOT01 | https://docs.zephyrproject.org/2.2.0/boards/arm/disco_l475_iot1/doc/index.html | bluetooth/peripheral, bluetooth/peripheral_csc, bluetooth/peripheral_dis, bluetooth/peripheral_esp, bluetooth/peripheral_hids, bluetooth/peripheral_hr, bluetooth/peripheral_ht |

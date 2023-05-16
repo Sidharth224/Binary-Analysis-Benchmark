@@ -1,4 +1,4 @@
-# Firmware Security Benchmark
+# Binary Analysis Benchmark
 This work is heavily inspired from following open source datasets and research papers
 * [UCSB-SecLab Monolithic Firmware Collection](https://github.com/ucsb-seclab/monolithic-firmware-collection)
 * [FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~wen.423/papers/ccs20_FirmXRay)
